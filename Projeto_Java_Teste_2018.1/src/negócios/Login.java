@@ -5,24 +5,12 @@ public class Login
 	private String login;
 	private String senha;
 	
-	public Login()
+	public Login(String login, String senha)
 	{
-		
+		this.login = login;
+		this.senha = senha;
 	}
 
-	public  void efetuarLogin(String login,String senha, Usuario usuario)
-	{
-		if(login.equals(usuario.getLogin()) && senha.equals(usuario.getSenha()))
-		{
-			System.out.println("Login efeturado com Sucesso!");
-		}
-		else
-		{
-			System.out.println("Usuario Invalido");
-		}
-	}
-	
-	
 	public String getLogin() 
 	{
 		return login;
@@ -32,6 +20,5 @@ public class Login
 	{
 		return senha;
 	}
-
 	
 }

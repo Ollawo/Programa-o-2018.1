@@ -11,37 +11,24 @@ public class Questão
 	private String pergunta; // texto da pergunta
 	private String[] opcoes; // opções de resposta
 	private String resposta; // texto da resposta
-	private Questão[] questao;
 	
 	
 	  
-	public Questão()
-	{
-		
-	}
-	public void gerarQuestao(String pergunta, String[] opcoes, String resposta)
+	public Questão(String pergunta, String[] opcoes, String resposta)
 	{
 		this.pergunta = pergunta;
 		this.opcoes = opcoes;
 		this.resposta = resposta;
 	}
-	
-	@Override
-	public String toString() 
-	{
-		return pergunta +"\n" + Arrays.toString(opcoes) + "\n"+ resposta+"\n"+"\n";
-	}
-	public String getQuestao() 
-	{
-		return Arrays.toString(questao);
-	}
-	public void setQuestao(Questão[] questao) 
-	{
-		this.questao = questao;
-	}
-	public String getPergunta()
+
+	public String getPergunta() 
 	{
 		return pergunta;
+	}
+
+	public void setPergunta(String pergunta) 
+	{
+		this.pergunta = pergunta;
 	}
 
 	public String[] getOpcoes() 
@@ -49,12 +36,26 @@ public class Questão
 		return opcoes;
 	}
 
+	public void setOpcoes(String[] opcoes) 
+	{
+		this.opcoes = opcoes;
+	}
+
 	public String getResposta() 
 	{
 		return resposta;
 	}
+
+	public void setResposta(String resposta) 
+	{
+		this.resposta = resposta;
+	}
+
+	@Override
+	public String toString() 
+	{
+		return pergunta +"\n" + Arrays.toString(opcoes) + "\n"+ resposta+"\n"+"\n";
+	}
 	
-
-
 }
 
