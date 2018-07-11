@@ -1,12 +1,12 @@
 package negócios;
 
-import negócios_dados.Repositório_Aluno;
+import negóciosdados.RepositórioAluno;
 import repositorio.RepositórioAlunoArray;
 
 
-public class Controle_Aluno 
+public class ControleAluno 
 {
-	Repositório_Aluno aluno = new RepositórioAlunoArray();
+	RepositórioAluno aluno = new RepositórioAlunoArray();
 	
 	
 	public void cadastrar(Aluno usuario) 

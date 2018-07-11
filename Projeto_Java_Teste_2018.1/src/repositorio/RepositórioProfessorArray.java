@@ -1,9 +1,9 @@
 package repositorio;
 
 import negócios.Professor;
-import negócios_dados.Repositório_Professor;
+import negóciosdados.RepositórioProfessor;
 
-public class RepositórioProfessorArray implements Repositório_Professor
+public class RepositórioProfessorArray implements RepositórioProfessor
 {
 	private Professor[] professores;
 	private int indice;

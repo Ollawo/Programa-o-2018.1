@@ -1,9 +1,9 @@
 package repositorio;
 
 import negócios.Questão;
-import negócios_dados.Repositório_Questão;
+import negóciosdados.RepositórioQuestão;
 
-public class RepositórioQuestãoArray implements Repositório_Questão
+public class RepositórioQuestãoArray implements RepositórioQuestão
 {
 	private Questão[] questoes;
 	private String perguntaPadrao = "vazio"; // texto da pergunta

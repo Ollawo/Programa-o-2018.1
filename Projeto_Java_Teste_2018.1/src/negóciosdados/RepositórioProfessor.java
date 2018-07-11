@@ -1,8 +1,8 @@
-package negócios_dados;
+package negóciosdados;
 
 import negócios.Professor;
 
-public interface Repositório_Professor 
+public interface RepositórioProfessor 
 {
 	public void inserir(Professor usuario);
 	public Professor procurar(Professor usuario);

@@ -1,11 +1,11 @@
 package negócios;
 
-import negócios_dados.Repositório_Login;
+import negóciosdados.RepositórioLogin;
 import repositorio.RepositórioLoginArray;
 
-public class Controle_Login 
+public class ControleLogin 
 {
-	Repositório_Login loginc = new RepositórioLoginArray();
+	RepositórioLogin loginc = new RepositórioLoginArray();
 	
 	public Aluno efetuarLogin(Login login, Aluno[] alunos) 
 	{

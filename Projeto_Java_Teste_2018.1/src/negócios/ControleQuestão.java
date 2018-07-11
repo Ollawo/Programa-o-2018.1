@@ -1,11 +1,11 @@
 package negócios;
 
-import negócios_dados.Repositório_Questão;
+import negóciosdados.RepositórioQuestão;
 import repositorio.RepositórioQuestãoArray;
 
-public class Controle_Questão 
+public class ControleQuestão 
 {
-	Repositório_Questão questao = new RepositórioQuestãoArray();
+	RepositórioQuestão questao = new RepositórioQuestãoArray();
 	
 	public void cadastrar(Questão Questao) 
 	{

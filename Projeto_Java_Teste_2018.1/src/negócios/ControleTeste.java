@@ -1,11 +1,11 @@
 package negócios;
 
-import negócios_dados.Repositório_Teste;
+import negóciosdados.RepositórioTeste;
 import repositorio.RepositórioTesteArray;
 
-public class Controle_Teste 
+public class ControleTeste 
 {
-	Repositório_Teste teste = new RepositórioTesteArray();
+	RepositórioTeste teste = new RepositórioTesteArray();
 	
 	public Teste gerarTeste(Aluno usuario,Questão[] Questoes) 
 	{ 

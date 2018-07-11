@@ -1,11 +1,11 @@
 package negócios;
 
-import negócios_dados.Repositório_Professor;
+import negóciosdados.RepositórioProfessor;
 import repositorio.RepositórioProfessorArray;
 
-public class Controle_Professor 
+public class ControleProfessor 
 {
-	Repositório_Professor professor = new RepositórioProfessorArray();
+	RepositórioProfessor professor = new RepositórioProfessorArray();
 	
 	
 	public void cadastrar(Professor usuario) 

@@ -2,7 +2,7 @@ package repositorio;
 
 import negócios.Login;
 import negócios.Usuario;
-import negócios_dados.Repositório_Login;
+import negóciosdados.RepositórioLogin;
 
 import java.util.Arrays;
 
@@ -11,7 +11,7 @@ import negócios.Fachada;
 import negócios.Professor;
 
 
-public class RepositórioLoginArray implements Repositório_Login
+public class RepositórioLoginArray implements RepositórioLogin
 {
 	private Aluno[] alunos;
 	private Professor[] professores;

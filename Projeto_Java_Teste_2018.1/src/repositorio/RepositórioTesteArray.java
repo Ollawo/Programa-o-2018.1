@@ -2,7 +2,7 @@ package repositorio;
 
 import negócios.Questão;
 import negócios.Teste;
-import negócios_dados.Repositório_Teste;
+import negóciosdados.RepositórioTeste;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 import negócios.Aluno;
 
-public class RepositórioTesteArray implements Repositório_Teste
+public class RepositórioTesteArray implements RepositórioTeste
 {
 	private Teste[] testes;
 	private int indice;

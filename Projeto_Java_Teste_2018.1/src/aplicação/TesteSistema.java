@@ -15,7 +15,7 @@ import negócios.Professor;
 import repositorio.RepositórioAlunoArray;
 import negócios.Teste;
 
-public class Teste_Sistema 
+public class TesteSistema 
 {
 	public static void main(String[] args) 
 	{

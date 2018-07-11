@@ -1,5 +1,5 @@
-package negócios_dados;
+package negóciosdados;
 
-public interface Repositório_Relatório {
+public interface RepositórioRelatório {
 
 }

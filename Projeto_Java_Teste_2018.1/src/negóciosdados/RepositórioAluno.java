@@ -1,8 +1,8 @@
-package negócios_dados;
+package negóciosdados;
 
 import negócios.Aluno;
 
-public interface Repositório_Aluno 
+public interface RepositórioAluno 
 {
 
 	public void inserir(Aluno usuario);

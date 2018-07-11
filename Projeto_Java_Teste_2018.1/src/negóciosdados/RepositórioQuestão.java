@@ -1,8 +1,8 @@
-package negócios_dados;
+package negóciosdados;
 
 import negócios.Questão;
 
-public interface Repositório_Questão 
+public interface RepositórioQuestão 
 {
 	public void inserir(Questão Questao);
 	public Questão procurar(Questão Questao);

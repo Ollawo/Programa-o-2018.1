@@ -2,20 +2,20 @@ package negócios;
 
 public class Fachada 
 {
-	private Controle_Aluno aluno;
-	private Controle_Professor professor;
-	private Controle_Login loginc;
-	private Controle_Questão questao;
-	private Controle_Teste teste;
+	private ControleAluno aluno;
+	private ControleProfessor professor;
+	private ControleLogin loginc;
+	private ControleQuestão questao;
+	private ControleTeste teste;
 	private static Fachada instance;
 	
 	public Fachada() 
 	{
-		aluno = new Controle_Aluno();
-		professor = new Controle_Professor();
-		loginc = new Controle_Login();
-		questao = new Controle_Questão();
-		teste = new Controle_Teste();
+		aluno = new ControleAluno();
+		professor = new ControleProfessor();
+		loginc = new ControleLogin();
+		questao = new ControleQuestão();
+		teste = new ControleTeste();
 	}
 	
 	public static Fachada getInstance()

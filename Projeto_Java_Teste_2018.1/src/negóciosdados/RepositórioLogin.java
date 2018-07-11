@@ -1,11 +1,11 @@
-package negócios_dados;
+package negóciosdados;
 
 import negócios.Aluno;
 import negócios.Login;
 import negócios.Professor;
 
 
-public interface Repositório_Login 
+public interface RepositórioLogin 
 {
 	public Aluno efetuarLogin(Login login, Aluno[] alunos);
 	public Aluno procurar(Login login);
