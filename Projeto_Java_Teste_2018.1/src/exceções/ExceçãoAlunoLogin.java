@@ -22,7 +22,6 @@ public class ExceçãoAlunoLogin {
 			    }
 			}
 			
-		
 	}
 	catch (Exception ex){
 	  throw ex;
