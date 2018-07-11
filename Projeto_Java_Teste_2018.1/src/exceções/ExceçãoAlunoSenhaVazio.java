@@ -11,18 +11,10 @@ public class ExceçãoAlunoSenhaVazio extends Exception{
 	
 	@SuppressWarnings("unused")
 	private Boolean VerficaCampo(Aluno aluno) throws Exception {
-		
-		try{
-
 		if (aluno.getSenha().equals("")){
 	         throw new Exception("Campo Matrícula não deve ser null");
+	    }else{
+	    	return true;
 	    }
-		
 	}
-	catch (Exception ex){
-	  throw ex;
-	}
-		return true;
-		}
-
 }

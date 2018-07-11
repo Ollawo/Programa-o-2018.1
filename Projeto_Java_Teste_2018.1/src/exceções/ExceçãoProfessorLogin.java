@@ -10,21 +10,12 @@ public class ExceçãoProfessorLogin {
 	
 	private Professor VerficaCampo(Login login, Professor[] professor) throws Exception {
 		int i;
-		try{
-			for (i=0;i<professor.length;i++) {
-				
-				if (!(professor[i].getSenha().equals(login.getSenha()) || professor[i].getMatricula().equals(login.getLogin()))){
-			         throw new Exception("Campos incorretos");
-			    }else {
-			    	break;
-			    }
-			}
+		for (i=0;i<professor.length;i++) {
 			
-		
+			if (professor[i].getSenha().equals(login.getSenha()) && professor[i].getMatricula().equals(login.getLogin())){
+				return professor[i]; 
+		    }
 	}
-	catch (Exception ex){
-	  throw ex;
+		throw new Exception("Login Incorreto");
 	}
-		return professor[i];
-		}
 }
