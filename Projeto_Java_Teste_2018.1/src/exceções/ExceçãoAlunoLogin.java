@@ -8,7 +8,7 @@ public class ExceçãoAlunoLogin {
 		// TODO Auto-generated constructor stub
 	}
 	
-	private Aluno VerficaCampo(Login login, Aluno[] alunos) throws Exception {
+	private Aluno VerficaCampo(Login login, Aluno[] alunos) throws Exception{
 		int i;
 		for (i=0;i<alunos.length;i++) {
 			

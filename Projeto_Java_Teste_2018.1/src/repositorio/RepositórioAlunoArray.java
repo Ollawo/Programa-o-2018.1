@@ -7,7 +7,6 @@ public class RepositórioAlunoArray implements RepositórioAluno
 {
 	private Aluno[] alunos;
 	private int indice;
-	
 	private final static int TAMANHO=5;
 	
 	public RepositórioAlunoArray() 
